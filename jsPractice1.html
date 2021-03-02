@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <link rel='stylesheet' href='css/ch7.css'>
+</head>
+
+
+<body>
+    <div id='page'>
+        <h1 id='header'>Grocery List App</h1>
+        <h2>Buy Groceries
+            <span id='counter'>0</span>
+        </h2>
+        <ul>
+            <li id='one' class='hot'><em>Fresh</em> Figs</li>
+            <li id='two' class='hot'>Pine Nuts</li>
+            <li id='three' class='hot'>Honey</li>
+            <li id='four'>Balsamic Vinegar</li>
+            <li>Quinoa</li>
+        </ul>
+
+    <div id="newItemButton" style="display: block;"><button href="#" id="showForm">new item</button></div>
+
+    <form id="newItemForm" style="display: none;">
+        <input type="text" id="itemDescription" placeholder="Add description...">
+        <input type="submit" id="addButton" value="add">
+      </form>
+
+    <p id="notes">
+
+    </p>
+
+    <footer id='footer'>$copy; ListApp</footer>
+
+    <div id='slideAd'>Buy List App Pro for only $1.99 (not a real app, example project)
+
+    </div>
+    </div>
+
+    <script src='js/jquery-3.4.1.min.js'></script>
+    <script src='js/ch7.js'></script> <!-- Scripts that use jQuery methods and properties are placed after jQuery script-->
+</body>
+
+
+</html>
